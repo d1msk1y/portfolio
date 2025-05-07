@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #bdbdbd;
+}
+
+.button-main {
+    background-color: #f6b400;
+    color: white;
+}
+
+.button-main:hover {
+    background-color: #c99200;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+    padding: 2%
+}
+
+.text-sm {
+    font-size: 0.8em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 2%;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    image: #f6b400;
+}
