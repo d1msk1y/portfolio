@@ -1,0 +1,25 @@
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.form-row div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;;
+}
+
+.contact-me button {
+  width: 40%;
+  max-width: 100%;
+}
