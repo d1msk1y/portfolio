@@ -1,0 +1,335 @@
+commit 887d04a55e0a944bf54bdc310c719bf0a84ab3d9
+tree 037762b8546dc387acc630b72bb774561deb6db4
+parent 268948d4a01a7dfb3803e5c2c0abad22a36c3d9d
+author d1msk1y <exect81@gmail.com> 1748264130 +0200
+committer d1msk1y <exect81@gmail.com> 1748264130 +0200
+
+    Add portfolio overview section
+    
+    organize files
+
+diff --git a/assets/images/d1msk1y-logo.png b/assets/images/d1msk1y-logo.png
+index 80b101a..9c01bae 100644
+Binary files a/assets/images/d1msk1y-logo.png and b/assets/images/d1msk1y-logo.png differ
+diff --git a/assets/images/portfolio/aepli-solar/img.png b/assets/images/portfolio/aepli-solar/img.png
+new file mode 100644
+index 0000000..7e33d83
+Binary files /dev/null and b/assets/images/portfolio/aepli-solar/img.png differ
+diff --git a/assets/images/portfolio/automations/mainpage.png b/assets/images/portfolio/automations/mainpage.png
+new file mode 100644
+index 0000000..d63369a
+Binary files /dev/null and b/assets/images/portfolio/automations/mainpage.png differ
+diff --git a/assets/images/portfolio/connector/connector.png b/assets/images/portfolio/connector/connector.png
+new file mode 100644
+index 0000000..5843e2a
+Binary files /dev/null and b/assets/images/portfolio/connector/connector.png differ
+diff --git a/assets/images/portfolio/danger-cube/screen-0.png b/assets/images/portfolio/danger-cube/screen-0.png
+new file mode 100644
+index 0000000..15e1eea
+Binary files /dev/null and b/assets/images/portfolio/danger-cube/screen-0.png differ
+diff --git a/assets/images/portfolio/danger-cube/screen-1.png b/assets/images/portfolio/danger-cube/screen-1.png
+new file mode 100644
+index 0000000..0c476e7
+Binary files /dev/null and b/assets/images/portfolio/danger-cube/screen-1.png differ
+diff --git a/assets/images/portfolio/danger-cube/screen-1.png:Zone.Identifier b/assets/images/portfolio/danger-cube/screen-1.png:Zone.Identifier
+new file mode 100644
+index 0000000..e69de29
+diff --git a/assets/images/portfolio/fusion-solar/image.png b/assets/images/portfolio/fusion-solar/image.png
+new file mode 100644
+index 0000000..e27bf19
+Binary files /dev/null and b/assets/images/portfolio/fusion-solar/image.png differ
+diff --git a/assets/images/portfolio/grafana-solar-flow/demo.gif b/assets/images/portfolio/grafana-solar-flow/demo.gif
+new file mode 100644
+index 0000000..a7655aa
+Binary files /dev/null and b/assets/images/portfolio/grafana-solar-flow/demo.gif differ
+diff --git a/assets/images/portfolio/insane-islands/9QWe+f.png b/assets/images/portfolio/insane-islands/9QWe+f.png
+new file mode 100644
+index 0000000..d29a389
+Binary files /dev/null and b/assets/images/portfolio/insane-islands/9QWe+f.png differ
+diff --git a/assets/images/portfolio/insane-islands/9QWe+f.png:Zone.Identifier b/assets/images/portfolio/insane-islands/9QWe+f.png:Zone.Identifier
+new file mode 100644
+index 0000000..4bba470
+--- /dev/null
++++ b/assets/images/portfolio/insane-islands/9QWe+f.png:Zone.Identifier
+@@ -0,0 +1,4 @@
++[ZoneTransfer]
++ZoneId=3
++ReferrerUrl=https://aaj-studio.itch.io/insane-island
++HostUrl=https://img.itch.zone/aW1hZ2UvMTE5MDgzOS82OTQ1NTkyLnBuZw==/original/9QWe%2Bf.png
+diff --git a/assets/images/portfolio/insane-islands/AG2Dd1.png b/assets/images/portfolio/insane-islands/AG2Dd1.png
+new file mode 100644
+index 0000000..9f652ca
+Binary files /dev/null and b/assets/images/portfolio/insane-islands/AG2Dd1.png differ
+diff --git a/assets/images/portfolio/insane-islands/AG2Dd1.png:Zone.Identifier b/assets/images/portfolio/insane-islands/AG2Dd1.png:Zone.Identifier
+new file mode 100644
+index 0000000..c4a0dae
+--- /dev/null
++++ b/assets/images/portfolio/insane-islands/AG2Dd1.png:Zone.Identifier
+@@ -0,0 +1,4 @@
++[ZoneTransfer]
++ZoneId=3
++ReferrerUrl=https://aaj-studio.itch.io/insane-island
++HostUrl=https://img.itch.zone/aW1hZ2UvMTE5MDgzOS82OTQ1NTkzLnBuZw==/original/AG2Dd1.png
+diff --git a/assets/images/portfolio/insane-islands/MxEXLh.png b/assets/images/portfolio/insane-islands/MxEXLh.png
+new file mode 100644
+index 0000000..861d7bc
+Binary files /dev/null and b/assets/images/portfolio/insane-islands/MxEXLh.png differ
+diff --git a/assets/images/portfolio/insane-islands/MxEXLh.png:Zone.Identifier b/assets/images/portfolio/insane-islands/MxEXLh.png:Zone.Identifier
+new file mode 100644
+index 0000000..09deeda
+--- /dev/null
++++ b/assets/images/portfolio/insane-islands/MxEXLh.png:Zone.Identifier
+@@ -0,0 +1,4 @@
++[ZoneTransfer]
++ZoneId=3
++ReferrerUrl=https://aaj-studio.itch.io/insane-island
++HostUrl=https://img.itch.zone/aW1hZ2UvMTE5MDgzOS82OTQ1NTkxLnBuZw==/original/MxEXLh.png
+diff --git a/assets/images/portfolio/pacman/frightened.png b/assets/images/portfolio/pacman/frightened.png
+new file mode 100644
+index 0000000..2770f34
+Binary files /dev/null and b/assets/images/portfolio/pacman/frightened.png differ
+diff --git a/assets/images/portfolio/pacman/lehmann.png b/assets/images/portfolio/pacman/lehmann.png
+new file mode 100644
+index 0000000..7281260
+Binary files /dev/null and b/assets/images/portfolio/pacman/lehmann.png differ
+diff --git a/assets/images/portfolio/pacman/menu.png b/assets/images/portfolio/pacman/menu.png
+new file mode 100644
+index 0000000..20e35bf
+Binary files /dev/null and b/assets/images/portfolio/pacman/menu.png differ
+diff --git a/assets/images/portfolio/pacman/tutorial.png b/assets/images/portfolio/pacman/tutorial.png
+new file mode 100644
+index 0000000..011828c
+Binary files /dev/null and b/assets/images/portfolio/pacman/tutorial.png differ
+diff --git a/assets/images/portfolio/pulsfire/screen0.png b/assets/images/portfolio/pulsfire/screen0.png
+new file mode 100644
+index 0000000..ce62f78
+Binary files /dev/null and b/assets/images/portfolio/pulsfire/screen0.png differ
+diff --git a/assets/images/portfolio/pulsfire/screen0.png:Zone.Identifier b/assets/images/portfolio/pulsfire/screen0.png:Zone.Identifier
+new file mode 100644
+index 0000000..e69de29
+diff --git a/assets/images/portfolio/pulsfire/screen2.png b/assets/images/portfolio/pulsfire/screen2.png
+new file mode 100644
+index 0000000..6d7212e
+Binary files /dev/null and b/assets/images/portfolio/pulsfire/screen2.png differ
+diff --git a/assets/images/portfolio/pulsfire/screen2.png:Zone.Identifier b/assets/images/portfolio/pulsfire/screen2.png:Zone.Identifier
+new file mode 100644
+index 0000000..e69de29
+diff --git a/assets/images/portfolio/webshop/import.png b/assets/images/portfolio/webshop/import.png
+new file mode 100644
+index 0000000..2ed436b
+Binary files /dev/null and b/assets/images/portfolio/webshop/import.png differ
+diff --git a/assets/images/portfolio/webshop/importfinish.png b/assets/images/portfolio/webshop/importfinish.png
+new file mode 100644
+index 0000000..24c0355
+Binary files /dev/null and b/assets/images/portfolio/webshop/importfinish.png differ
+diff --git a/assets/images/portfolio/webshop/mainpage-new.png b/assets/images/portfolio/webshop/mainpage-new.png
+new file mode 100644
+index 0000000..dba2109
+Binary files /dev/null and b/assets/images/portfolio/webshop/mainpage-new.png differ
+diff --git a/assets/images/portfolio/webshop/mainpage.png b/assets/images/portfolio/webshop/mainpage.png
+new file mode 100644
+index 0000000..50e0185
+Binary files /dev/null and b/assets/images/portfolio/webshop/mainpage.png differ
+diff --git a/index.html b/index.html
+index 64afd28..68f472b 100644
+--- a/index.html
++++ b/index.html
+@@ -3,10 +3,10 @@
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-  <title>My Web Page</title>
+-  <link rel="stylesheet" href="styles.css">
++  <title>D1MSK1Y - Software Dev</title>
++  <link rel="stylesheet" href="styles/styles.css">
+   <script src="script.js" defer></script>
+-  <link rel="icon" href="favicon.ico" type="image/x-icon">
++  <link rel="icon" href="assets/images/d1msk1y-logo.png" type="image/x-icon">
+   <meta name="description" content="This is a sample web page.">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet">
+@@ -35,9 +35,34 @@
+       </div>
+     </div>
+   </section>
+-  <section id="about">
++  <section id="portfolio-overview">
+     <h2>Portfolio Overview</h2>
+-    <p>This section contains information about the web page.</p>
++    <div class="portfolio-overview-content">
++      <a href="pages/webshop.html" class="portfolio-item">
++        <div class="image-wrapper">
++          <img src="assets/images/portfolio/webshop/mainpage-new.png" alt="Portfolio Item 1">
++        </div>
++        <h4>Eldas Webshop</h4>
++        <p class="text-sm">Integrated product catalog <br/>
++          Sep. 2023 - Dec. 2025</p>
++      </a>
++      <a href="pages/solarflow.html" class="portfolio-item">
++        <div class="image-wrapper">
++          <img src="assets/images/portfolio/grafana-solar-flow/demo.gif" alt="Portfolio Item 2">
++        </div>
++        <h4>Grafana Solar Flow</h4>
++        <p class="text-sm">Solar visualization <br/> Nov. 2024</p>
++      </a>
++      <a href="pages/lc.html" class="portfolio-item">
++        <div class="image-wrapper">
++          <img src="assets/images/portfolio/connector/connector.png" alt="Portfolio Item 3">
++        </div>
++        <h4>Lehmann Connector</h4>
++        <p class="text-sm">Windows call detector <br/> Mar. 2023 - Today</p>
++      </a>
++    </div>
++    <button class="button-main">More Projects</button>
++
+   </section>
+   <section id="contact">
+     <h2>Briefly About Me</h2>
+@@ -45,15 +70,18 @@
+       <div class="briefly-about-content">
+         <div class="briefly-text">
+           <h4>Disciplined</h4>
+-          <p class="text-sm">I have control over my time and know how to manage my deadlines. Consistency is my tool!</p>
++          <p class="text-sm">I have control over my time and know how to manage my deadlines. Consistency is my
++            tool!</p>
+         </div>
+         <div class="briefly-text">
+           <h4>Disciplined</h4>
+-          <p class="text-sm">I have control over my time and know how to manage my deadlines. Consistency is my tool!</p>
++          <p class="text-sm">I have control over my time and know how to manage my deadlines. Consistency is my
++            tool!</p>
+         </div>
+         <div class="briefly-text">
+           <h4>Disciplined</h4>
+-          <p class="text-sm">I have control over my time and know how to manage my deadlines. Consistency is my tool!</p>
++          <p class="text-sm">I have control over my time and know how to manage my deadlines. Consistency is my
++            tool!</p>
+         </div>
+         <button class="button-main">Learn More</button>
+       </div>
+diff --git a/styles.css b/styles/styles.css
+similarity index 55%
+rename from styles.css
+rename to styles/styles.css
+index b7a4bda..6b252c3 100644
+--- a/styles.css
++++ b/styles/styles.css
+@@ -1,5 +1,9 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+ 
++a {
++  text-decoration: none;
++}
++
+ h1 {
+   font-size: 2em;
+   margin: 0;
+@@ -14,7 +18,7 @@ h4 {
+   font-weight: 400;
+ }
+ 
+-.text-sm{
++.text-sm {
+   color: #8f8f8f;
+ }
+ 
+@@ -23,7 +27,8 @@ h5, h6 {
+ }
+ 
+ body {
+-  margin: 0 30%;
++  max-width: 45%;
++  margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Roboto', sans-serif;
+@@ -33,7 +38,7 @@ body {
+   position: relative;
+   padding: 4%;
+   margin: 0;
+-  background-image: url('./assets/intro-bg.png');
++  background-image: url('../assets/intro-bg.png');
+   background-size: cover;
+   height: 250px;
+   border-radius: 10px;
+@@ -124,14 +129,73 @@ footer {
+   margin: 0;
+ }
+ 
+-.briefly-about img{
+-  width: 50%;
+-  border-radius: 50%;
+-  margin-right: 20px;
++.briefly-about img {
++  width: 40%;
++  height: 40%;
++  max-width: 300px;
++  margin: auto;
+ }
+ 
+-.briefly-about-content{
++.briefly-about-content {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+-}
+\ No newline at end of file
++}
++
++.portfolio-overview-content {
++  display: flex;
++  flex-direction: row;
++  align-items: center;
++}
++
++.portfolio-item {
++  width: 100%;
++  padding: 1%;
++  min-height: 300px;
++}
++
++.portfolio-item:hover {
++  cursor: pointer;
++  text-decoration: underline dotted #f6b400;
++  text-underline-offset: 5px;
++}
++
++.portfolio-item .image-wrapper {
++  border-radius: 10px;
++  border: 1px solid #eaeaea;
++  width: 100%;
++  height: 0;
++  padding-top: 100%;
++  position: relative;
++  overflow: hidden;
++  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
++}
++
++.portfolio-item img {
++  position: absolute;
++  top: 50%;
++  left: 50%;
++  transform: translate(-50%, -50%);
++  width: 100%;
++  height: 100%;
++  object-fit: cover;
++}
++
++.portfolio-item h4 {
++  color: #DDA200;
++}
++
++.portfolio-item p {
++  margin: 0;
++}
++
++@media (max-width: 1200px) {
++  body {
++    max-width: 80%;
++  }
++}
++@media (max-width: 900px) {
++  body {
++    max-width: 100%;
++  }
++}
