@@ -5,7 +5,6 @@ a {
 }
 
 h1 {
-  font-size: 2em;
   margin: 0;
   font-size: 2.5em;
   color: #f6b400;
@@ -105,7 +104,7 @@ footer {
   opacity: 0.75;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
@@ -116,6 +115,7 @@ img{
     max-width: 80%;
   }
 }
+
 @media (max-width: 900px) {
   body {
     max-width: 100%;
@@ -169,7 +169,7 @@ img{
   margin: 0;
 }
 
-img{
+img {
   margin: auto auto;
 }
 
@@ -197,7 +197,7 @@ section {
   animation-delay: 0.4s;
 }
 
-p{
+p {
   animation-delay: 0.7s;
 }
 
@@ -240,6 +240,11 @@ section {
   animation-delay: 0s;
 }
 
+.navbar h5 {
+  padding: 1px;
+  color: black;
+}
+
 input {
   width: 100%;
   height: 30px;
@@ -247,8 +252,26 @@ input {
   border-radius: 5px;
   box-sizing: border-box;
 }
-label{
+
+label {
   margin-bottom: 5px;
   display: block;
   color: #333;
+}
+
+.colorconcept {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+"
+}
+
+.colorconcept div {
+  height: 50px;
+  min-width: 50px;
+}
+
+iframe {
+  border-radius: 15px
 }

@@ -23,3 +23,55 @@
   width: 40%;
   max-width: 100%;
 }
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-me img {
+  width: 40%;
+  height: 40%;
+  max-width: 350px;
+  margin: 0 5%;
+}
+
+.lower-about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.skills p{
+  margin: 0 !important;
+}
+
+.contacts p{
+  margin: 0 !important;
+  padding: 0;
+  width: 100%;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.skills p{
+  margin: 0 !important;
+}
+
+.traits{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
